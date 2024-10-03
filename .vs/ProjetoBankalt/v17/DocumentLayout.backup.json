@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\bravo\\Downloads\\ProjetoBankalt - 1\\",
+  "WorkspaceRootPath": "C:\\Users\\gabri\\source\\repos\\Projeto-Bankalt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30DD00B1-2601-4BA8-B1D4-0F73D4A489D1}|WindowsFormsApp1\\view.csproj|c:\\users\\bravo\\downloads\\projetobankalt - 1\\windowsformsapp1\\formcadastro3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30DD00B1-2601-4BA8-B1D4-0F73D4A489D1}|WindowsFormsApp1\\view.csproj|solutionrelative:windowsformsapp1\\formcadastro3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30DD00B1-2601-4BA8-B1D4-0F73D4A489D1}|WindowsFormsApp1\\view.csproj|c:\\users\\gabri\\source\\repos\\projeto-bankalt\\windowsformsapp1\\formcadastro2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{30DD00B1-2601-4BA8-B1D4-0F73D4A489D1}|WindowsFormsApp1\\view.csproj|solutionrelative:windowsformsapp1\\formcadastro2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30DD00B1-2601-4BA8-B1D4-0F73D4A489D1}|WindowsFormsApp1\\view.csproj|c:\\users\\bravo\\downloads\\projetobankalt - 1\\windowsformsapp1\\formcadastro4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30DD00B1-2601-4BA8-B1D4-0F73D4A489D1}|WindowsFormsApp1\\view.csproj|solutionrelative:windowsformsapp1\\formcadastro4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30DD00B1-2601-4BA8-B1D4-0F73D4A489D1}|WindowsFormsApp1\\view.csproj|c:\\users\\gabri\\source\\repos\\projeto-bankalt\\windowsformsapp1\\formcadastro3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{30DD00B1-2601-4BA8-B1D4-0F73D4A489D1}|WindowsFormsApp1\\view.csproj|solutionrelative:windowsformsapp1\\formcadastro3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30DD00B1-2601-4BA8-B1D4-0F73D4A489D1}|WindowsFormsApp1\\view.csproj|c:\\users\\gabri\\source\\repos\\projeto-bankalt\\windowsformsapp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{30DD00B1-2601-4BA8-B1D4-0F73D4A489D1}|WindowsFormsApp1\\view.csproj|solutionrelative:windowsformsapp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30DD00B1-2601-4BA8-B1D4-0F73D4A489D1}|WindowsFormsApp1\\view.csproj|c:\\users\\gabri\\source\\repos\\projeto-bankalt\\windowsformsapp1\\formcadastro4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{30DD00B1-2601-4BA8-B1D4-0F73D4A489D1}|WindowsFormsApp1\\view.csproj|solutionrelative:windowsformsapp1\\formcadastro4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30DD00B1-2601-4BA8-B1D4-0F73D4A489D1}|WindowsFormsApp1\\view.csproj|c:\\users\\gabri\\source\\repos\\projeto-bankalt\\windowsformsapp1\\formcadastro2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30DD00B1-2601-4BA8-B1D4-0F73D4A489D1}|WindowsFormsApp1\\view.csproj|solutionrelative:windowsformsapp1\\formcadastro2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,29 +34,64 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormCadastro4.cs",
-              "DocumentMoniker": "C:\\Users\\bravo\\Downloads\\ProjetoBankalt - 1\\WindowsFormsApp1\\FormCadastro4.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\FormCadastro4.cs",
-              "ToolTip": "C:\\Users\\bravo\\Downloads\\ProjetoBankalt - 1\\WindowsFormsApp1\\FormCadastro4.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\FormCadastro4.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAhwDUAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "FormCadastro2.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\Projeto-Bankalt\\WindowsFormsApp1\\FormCadastro2.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\FormCadastro2.cs",
+              "ToolTip": "C:\\Users\\gabri\\source\\repos\\Projeto-Bankalt\\WindowsFormsApp1\\FormCadastro2.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\FormCadastro2.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAUwCIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T01:18:11.737Z",
+              "WhenOpened": "2024-10-03T02:21:55.312Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormCadastro3.cs",
-              "DocumentMoniker": "C:\\Users\\bravo\\Downloads\\ProjetoBankalt - 1\\WindowsFormsApp1\\FormCadastro3.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\FormCadastro3.cs",
-              "ToolTip": "C:\\Users\\bravo\\Downloads\\ProjetoBankalt - 1\\WindowsFormsApp1\\FormCadastro3.cs*",
-              "RelativeToolTip": "WindowsFormsApp1\\FormCadastro3.cs*",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAMwE0AAAAqAAAAAAAAAA==",
+              "Title": "FormCadastro2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\Projeto-Bankalt\\WindowsFormsApp1\\FormCadastro2.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\FormCadastro2.cs",
+              "ToolTip": "C:\\Users\\gabri\\source\\repos\\Projeto-Bankalt\\WindowsFormsApp1\\FormCadastro2.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\FormCadastro2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T01:08:52.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-03T02:07:10.692Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormCadastro3.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\Projeto-Bankalt\\WindowsFormsApp1\\FormCadastro3.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\FormCadastro3.cs",
+              "ToolTip": "C:\\Users\\gabri\\source\\repos\\Projeto-Bankalt\\WindowsFormsApp1\\FormCadastro3.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\FormCadastro3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T02:00:59.032Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormCadastro4.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\Projeto-Bankalt\\WindowsFormsApp1\\FormCadastro4.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\FormCadastro4.cs",
+              "ToolTip": "C:\\Users\\gabri\\source\\repos\\Projeto-Bankalt\\WindowsFormsApp1\\FormCadastro4.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\FormCadastro4.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T01:59:08.49Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\Projeto-Bankalt\\WindowsFormsApp1\\Login.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Login.cs",
+              "ToolTip": "C:\\Users\\gabri\\source\\repos\\Projeto-Bankalt\\WindowsFormsApp1\\Login.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T01:52:50.105Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

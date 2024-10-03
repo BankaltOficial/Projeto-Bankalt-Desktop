@@ -72,5 +72,10 @@ namespace WindowsFormsApp1
             this.Close();
             cadastro.Show(); 
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

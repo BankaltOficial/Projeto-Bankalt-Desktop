@@ -108,6 +108,20 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            Form1 entrada = new Form1();
+            this.Close();
+            entrada.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Login login1 = new Login();
+            this.Close();
+            login1.Show();
+        }
     }   
 }
 

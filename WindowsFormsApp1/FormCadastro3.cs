@@ -45,7 +45,7 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frt1.Pais = textBox1.Text;
+            frt1.Pais = comboBox1.Text;
             frt1.Estado = textBox4.Text;
             frt1.Cidade = textBox3.Text;
             frt1.Bairro = textBox2.Text;
@@ -104,6 +104,44 @@ namespace WindowsFormsApp1
         }
 
         private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textchangedcep(object sender, EventArgs e)
+        {
+        
+        }
+
+      //  private void LocalizarCEP()
+      //  {
+      //      if (!string.IsNullOrWhiteSpace(maskedTextBox1.Text))
+      //      {
+     //           Address endereco = SearchZip.GetAddress(maskedTextBox1.Text);
+     //           if (endereco.Zip != null)
+     //           {
+    //                textBox4.Text = endereco.State;
+    // //               textBox3.Text = endereco.City;
+    //                textBox2.Text = endereco.District;
+    //                textBox5.Text = endereco.Street;
+   //             }
+     //           else
+  //              {
+   //                 MessageBox.Show("Cep não localizado...");
+    //            }
+  //          }
+    //        else
+    //        {
+     //           MessageBox.Show("Informe um CEP válido");
+    //        }
+    //    }
+
+    //    private void textleavecep(object sender, EventArgs e)
+   //    {
+    //        LocalizarCEP();
+   //     }
+
+        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
         {
 
         }

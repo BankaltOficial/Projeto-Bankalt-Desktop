@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 
+
 namespace dados
 {
     public class FuncionarioRepository
@@ -40,8 +41,8 @@ namespace dados
         // insert na tabela funcionarios dados só 1ª tela //
         public void InsertFuncionario(Funcionario funcionario)
         {
-            string query = "INSERT INTO funcionariodados (Nome, Cpf, Usuario, Senha, Rg, DataNascimento, Cargo, Estadocivil, Pais, Estado, Cidade, Bairro, Rua, Cep, Numero, Complemento, ContatoEmergencia, Celular, Telefone, Email, Salario) " +
-                           "VALUES (@Nome, @Cpf, @Usuario, @Senha, @Rg, @DataNascimento, @Cargo, @EstadoCivil, @Pais, @Estado, @Cidade, @Bairro, @Rua, @Cep, @Numero, @Complemento, @ContatoEmergencia, @Celular, @Telefone, @Email, @Salario)";
+            string query = "INSERT INTO funcionariodados (Nome, Cpf, Usuario, Senha, Rg, DataNascimento, Cargo, Estadocivil, Pais, Estado, Cidade, Bairro, Rua, Cep, Numero, Complemento, ContatoEmergencia, Celular, Telefone, Email, Salario, ContatoEmergenciaNome) " +
+                           "VALUES (@Nome, @Cpf, @Usuario, @Senha, @Rg, @DataNascimento, @Cargo, @EstadoCivil, @Pais, @Estado, @Cidade, @Bairro, @Rua, @Cep, @Numero, @Complemento, @ContatoEmergencia, @Celular, @Telefone, @Email, @Salario, @ContatoEmergenciaNome)";
 
             using (MySqlConnection connection = new MySqlConnection(connectionstr))
             {
@@ -68,6 +69,7 @@ namespace dados
                     insert.Parameters.AddWithValue("@Telefone", funcionario.Telefone);
                     insert.Parameters.AddWithValue("@Email", funcionario.Email);
                     insert.Parameters.AddWithValue("@Salario", funcionario.Salario);
+                    insert.Parameters.AddWithValue("@ContatoEmergenciaNome", funcionario.Contatoemergencianome);
 
                     try
                     {

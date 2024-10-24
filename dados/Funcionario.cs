@@ -11,7 +11,7 @@ namespace dados
         private String nome;
         private String senha;
         private String username;
-        private float salario;
+        private String salario;
         private string cpf;
         private String rg;
         private DateTime datanascimento;
@@ -29,12 +29,13 @@ namespace dados
         private String telefone;
         private String contatoemergencia;
         private String numero;
+        private String contatoemergencianome;
 
         public Funcionario()
         {
         }
 
-        public Funcionario(string nome, string senha, string username, float salario, string rg, DateTime datanascimento, string cargo, string pais, string estado, string cidade, string bairro, string rua, string cep, string complemento, string estadocivil, string email, string celular, string telefone, string contatoemergencia, string cpf, string numero)
+        public Funcionario(string nome, string senha, string username, string salario, string rg, DateTime datanascimento, string cargo, string pais, string estado, string cidade, string bairro, string rua, string cep, string complemento, string estadocivil, string email, string celular, string telefone, string contatoemergencia, string cpf, string numero, string contatonome)
         {
             this.Nome = nome;
             this.Senha = senha;
@@ -57,12 +58,13 @@ namespace dados
             this.Contatoemergencia = contatoemergencia;
             this.Cpf = cpf;
             this.Numero = numero;
+            this.contatoemergencianome = contatonome;
         }
 
         public string Nome { get => nome; set => nome = value; }
         public string Senha { get => senha; set => senha = value; }
         public string Username { get => username; set => username = value; }
-        public float Salario { get => salario; set => salario = value; }
+        public string Salario { get => salario; set => salario = value; }
         public string Rg { get => rg; set => rg = value; }
         public DateTime Datanascimento { get => datanascimento; set => datanascimento = value; }
         public string Cargo { get => cargo; set => cargo = value; }
@@ -80,5 +82,6 @@ namespace dados
         public string Contatoemergencia { get => contatoemergencia; set => contatoemergencia = value; }
         public string Cpf { get => cpf; set => cpf = value; }
         public string Numero { get => numero; set => numero = value; }
+        public string Contatoemergencianome { get => contatoemergencianome; set => contatoemergencianome = value; }
     }
 }

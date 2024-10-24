@@ -34,7 +34,7 @@ namespace WindowsFormsApp1
         }
 
         private void btnsalvarcadastro1click(object sender, EventArgs e)
-        {
+        { 
             try
             {
                 FuncionarioRepository fr = new FuncionarioRepository();
@@ -68,9 +68,18 @@ namespace WindowsFormsApp1
                 }
 
 
-                FormCadastro2 cadastro2 = new FormCadastro2(fr1);
-                cadastro2.Show();
-                this.Hide();
+                bool c = CpfCnpjUtils.IsCpf(maskedTextBox1.Text);
+                if (c == false)
+                {
+                    MessageBox.Show("Informe um cpf valido");
+                    maskedTextBox1.Focus();
+                }
+                if (c == true)
+                {
+                    FormCadastro2 cadastro2 = new FormCadastro2(fr1);
+                    cadastro2.Show();
+                    this.Hide();
+                }
                 throw new Exception();
             }
             catch(Exception ex)
@@ -83,6 +92,11 @@ namespace WindowsFormsApp1
             Login login1 = new Login();
             this.Close();
             login1.Show();
+        }
+
+        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
         }
     }
 }

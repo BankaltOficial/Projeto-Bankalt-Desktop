@@ -21,13 +21,13 @@ namespace WindowsFormsApp1
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://www.figma.com/design/LmZG6UKyUbOhPhC4DhRWSm/TCC?node-id=193-163&t=YMPPe4gVE5qWnP0V-0");
+            System.Diagnostics.Process.Start("https://web-bankalt.vercel.app/assets/docs/Termo%20de%20Seguran%C3%A7a.pdf");
 
         }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://docs.google.com/document/d/1cRg6BIPX40KNvjp-wEDx3_N64ER32obzXxJql-ldD5E/edit");
+            System.Diagnostics.Process.Start("https://web-bankalt.vercel.app/assets/docs/Termo%20de%20Privacidade.pdf");
         }
 
         private void frmloginvoltaentrada(object sender, EventArgs e)

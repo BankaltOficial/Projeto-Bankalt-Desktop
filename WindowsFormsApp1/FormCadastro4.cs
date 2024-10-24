@@ -45,18 +45,9 @@ namespace WindowsFormsApp1
             frt2.Telefone = maskedTextBox2.Text;
             frt2.Contatoemergencia = maskedTextBox3.Text;
             frt2.Email = textBox5.Text;
-            float salario = 0;
-            if(float.TryParse(textBox1.Text, out salario))
-            {
-                frt2.Salario = salario;
-            }
+            frt2.Contatoemergencianome = textBox2.Text;
+            frt2.Salario = comboBox1.Text;
 
-            string nomePattern = @"^\d+$";  // Permite letras, acentos e espaços
-            if (!Regex.IsMatch(frt2.Salario.ToString(), nomePattern)) 
-            {
-                MessageBox.Show("O Salario deve conter apenas letras e espaços.", "Aviso do sistema", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
 
             if (frt2 != null)
             {
@@ -121,6 +112,16 @@ namespace WindowsFormsApp1
             Login login1 = new Login();
             this.Close();
             login1.Show();
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }   
 }

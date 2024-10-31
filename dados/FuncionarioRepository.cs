@@ -15,28 +15,6 @@ namespace dados
 
         private string connectionstr = "Server=143.106.241.4;Database=cl203231;User ID=cl203231;Password=cl*25122007;";
 
-        public void insertfuncionariologin(Funcionario funcionario)
-        {
-            try
-            {
-                MySqlConnection connection = new MySqlConnection(connectionstr);
-                string query = "INSERT INTO funcionariologin (Senha, Username) VALUES (?, ?)";
-                var insert = new MySqlCommand(query, connection);
-
-                insert.Parameters.AddWithValue("1", funcionario.Senha);
-                insert.Parameters.AddWithValue("2", funcionario.Username);
-
-                connection.Open();
-                insert.ExecuteNonQuery();
-                connection.Close();
-
-            }
-            catch(Exception ex)
-            {
-                Console.WriteLine(ex.ToString());
-            }
-        }
-
 
         // insert na tabela funcionarios dados só 1ª tela //
         public void InsertFuncionario(Funcionario funcionario)
@@ -96,7 +74,7 @@ namespace dados
             try
             {
                 MySqlConnection connection = new MySqlConnection(connectionstr);
-                string query = "SELECT Username, Senha FROM funcionariologin WHERE Username = ? AND Senha = ?";
+                string query = "SELECT Usuario, Senha FROM funcionariodados WHERE Usuario = ? AND Senha = ?";
                 var select = new MySqlCommand(query, connection);
 
                 select.Parameters.AddWithValue("1", funcionario.Username);
@@ -105,9 +83,9 @@ namespace dados
                 connection.Open();
                 MySqlDataReader reader = select.ExecuteReader();
 
-                if(reader.Read())
+                if (reader.Read())
                 {
-                    username = reader["Username"].ToString();
+                    username = reader["Usuario"].ToString();
                     senha = reader["Senha"].ToString();
                 }
                 connection.Close();
@@ -115,7 +93,7 @@ namespace dados
 
                 return (username, senha);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Console.WriteLine("1");
             }
@@ -123,6 +101,32 @@ namespace dados
             return (username, senha);
         }
 
-    
+        public string SelectUsernamefuncionario(string username)
+        {
+            string usuario = null;
+            try
+            {
+                MySqlConnection connection = new MySqlConnection(connectionstr);
+                string query = "SELECT Usuario FROM funcionariodados WHERE Usuario = ?";
+                var select = new MySqlCommand(query, connection);
+
+                select.Parameters.AddWithValue("1", username);
+                connection.Open();
+                MySqlDataReader reader = select.ExecuteReader();
+                if (reader.Read())
+                {
+                    usuario = reader["Usuario"].ToString();
+                }
+                connection.Close();
+                return (usuario);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("1");
+            }
+            return (usuario);
+
+
+        }
     }
 }

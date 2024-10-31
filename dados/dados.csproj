@@ -103,6 +103,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClienteMF.cs" />
+    <Compile Include="ClienteMFRepository.cs" />
     <Compile Include="CpfCnpjUtils.cs" />
     <Compile Include="Funcionario.cs" />
     <Compile Include="FuncionarioRepository.cs" />

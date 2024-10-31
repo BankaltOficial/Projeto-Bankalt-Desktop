@@ -113,6 +113,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormAnimacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAnimacao.Designer.cs">
+      <DependentUpon>FormAnimacao.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formcadastro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -137,6 +143,30 @@
     <Compile Include="FormCadastro4.Designer.cs">
       <DependentUpon>FormCadastro4.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDadosExtrato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDadosExtrato.Designer.cs">
+      <DependentUpon>FormDadosExtrato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormInformacoespessoais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInformacoespessoais.Designer.cs">
+      <DependentUpon>FormInformacoespessoais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSelecao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSelecao.Designer.cs">
+      <DependentUpon>FormSelecao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSistemaDesenvolvedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSistemaDesenvolvedor.Designer.cs">
+      <DependentUpon>FormSistemaDesenvolvedor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -147,6 +177,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAnimacao.resx">
+      <DependentUpon>FormAnimacao.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formcadastro.resx">
       <DependentUpon>Formcadastro.cs</DependentUpon>
@@ -159,6 +192,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormCadastro4.resx">
       <DependentUpon>FormCadastro4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDadosExtrato.resx">
+      <DependentUpon>FormDadosExtrato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInformacoespessoais.resx">
+      <DependentUpon>FormInformacoespessoais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSelecao.resx">
+      <DependentUpon>FormSelecao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSistemaDesenvolvedor.resx">
+      <DependentUpon>FormSistemaDesenvolvedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

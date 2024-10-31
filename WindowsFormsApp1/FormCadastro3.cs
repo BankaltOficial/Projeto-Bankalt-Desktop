@@ -1,4 +1,5 @@
-﻿using dados;
+﻿using Correios.Net;
+using dados;
 using FluentValidation.Results;
 using System;
 using System.Collections.Generic;
@@ -110,38 +111,20 @@ namespace WindowsFormsApp1
 
         private void textchangedcep(object sender, EventArgs e)
         {
-        
+       
+        }
+    
+        private void textleavecep(object sender, EventArgs e)
+       {
+
         }
 
-      //  private void LocalizarCEP()
-      //  {
-      //      if (!string.IsNullOrWhiteSpace(maskedTextBox1.Text))
-      //      {
-     //           Address endereco = SearchZip.GetAddress(maskedTextBox1.Text);
-     //           if (endereco.Zip != null)
-     //           {
-    //                textBox4.Text = endereco.State;
-    // //               textBox3.Text = endereco.City;
-    //                textBox2.Text = endereco.District;
-    //                textBox5.Text = endereco.Street;
-   //             }
-     //           else
-  //              {
-   //                 MessageBox.Show("Cep não localizado...");
-    //            }
-  //          }
-    //        else
-    //        {
-     //           MessageBox.Show("Informe um CEP válido");
-    //        }
-    //    }
-
-    //    private void textleavecep(object sender, EventArgs e)
-   //    {
-    //        LocalizarCEP();
-   //     }
-
         private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
         {
 
         }

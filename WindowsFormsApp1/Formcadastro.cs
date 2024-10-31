@@ -39,10 +39,18 @@ namespace WindowsFormsApp1
             {
                 FuncionarioRepository fr = new FuncionarioRepository();
                 Funcionario fr1 = new Funcionario();
+                string user = fr.SelectUsernamefuncionario(textBox3.Text);
+                if(user == textBox3.Text)
+                {
+                    MessageBox.Show("O Usuário não pode ser repetido!");
+                    return;
+                }
                 fr1.Username= textBox3.Text;
                 fr1.Senha = textBox4.Text;
                 fr1.Nome = textBox1.Text;
                 fr1.Cpf = maskedTextBox1.Text;
+
+
 
                 string nomePattern = @"^[A-Za-zÀ-ú\s]+$";  // Permite letras, acentos e espaços
                 if (!Regex.IsMatch(fr1.Nome, nomePattern))

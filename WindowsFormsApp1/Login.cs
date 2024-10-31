@@ -53,7 +53,9 @@ namespace WindowsFormsApp1
                 var (username, senha) = fr.Selectfuncionariologin(funcionario);
                 if(username == textBox1.Text.ToString() && senha == textBox2.Text.ToString())
                 {
-                    MessageBox.Show(username, senha);
+                    FormAnimacao formanimacao = new FormAnimacao();
+                    this.Close();
+                    formanimacao.Show();
                 }
                 else
                 {

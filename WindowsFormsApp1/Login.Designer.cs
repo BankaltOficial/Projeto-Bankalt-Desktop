@@ -182,7 +182,7 @@ namespace WindowsFormsApp1
             this.label6.Location = new System.Drawing.Point(820, 509);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(162, 16);
+            this.label6.Size = new System.Drawing.Size(161, 16);
             this.label6.TabIndex = 12;
             this.label6.Text = "Não está cadastrado?";
             // 
@@ -207,7 +207,7 @@ namespace WindowsFormsApp1
             this.label7.Location = new System.Drawing.Point(612, 556);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(343, 16);
+            this.label7.Size = new System.Drawing.Size(342, 16);
             this.label7.TabIndex = 14;
             this.label7.Text = "Clicando no botão cadastrar, você aceita nosso:";
             this.label7.Click += new System.EventHandler(this.label7_Click);
@@ -259,7 +259,7 @@ namespace WindowsFormsApp1
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(238)))), ((int)(((byte)(244)))));
-            this.ClientSize = new System.Drawing.Size(1206, 705);
+            this.ClientSize = new System.Drawing.Size(1028, 705);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.linkLabel1);
@@ -279,12 +279,13 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Login";
+            this.Text = "LOGIN";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();

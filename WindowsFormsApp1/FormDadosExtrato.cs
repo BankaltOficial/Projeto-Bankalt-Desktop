@@ -19,7 +19,9 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            FormCartao cartao = new FormCartao();
+            cartao.Show();
+            this.Close();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

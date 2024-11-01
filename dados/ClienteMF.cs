@@ -29,11 +29,17 @@ namespace dados
         private float saldodaconta;
         private string tiporendamensal;
         private float valortotalinvestimentos;
+        private string tipocartao;
+        private string tipoplano;
+        private string tipoconta;
+        private string numerocartao;
+        private string validade;
+        private string cvv;
 
-        public ClienteMF(string nome, string sexo, DateTime datanascimento, string rg, string cpf, string estadocivil, string pais, string estado, string cidade, string bairro, string rua, string numero, string cep, string complemento, string telefone, string celular, string email, float rendamensal, float saldodaconta, string tiporendamensal, float valortotalinvestimentos)
+        public ClienteMF(string nome, string sexo, DateTime datanascimento, string rg, string cpf, string estadocivil, string pais, string estado, string cidade, string bairro, string rua, string numero, string cep, string complemento, string telefone, string celular, string email, float rendamensal, float saldodaconta, string tiporendamensal, float valortotalinvestimentos, string tipocartao, string tipoplano, string tipoconta, string numerocartao, string validade, string cvv)
         {
             this.nome = nome;
-            this.Sexo = sexo;
+            Sexo = sexo;
             this.datanascimento = datanascimento;
             this.rg = rg;
             this.cpf = cpf;
@@ -53,6 +59,12 @@ namespace dados
             this.saldodaconta = saldodaconta;
             this.tiporendamensal = tiporendamensal;
             this.valortotalinvestimentos = valortotalinvestimentos;
+            this.tipocartao = tipocartao;
+            this.tipoplano = tipoplano;
+            this.tipoconta = tipoconta;
+            this.numerocartao = numerocartao;
+            this.validade = validade;
+            this.cvv = cvv;
         }
 
         public ClienteMF()
@@ -81,5 +93,11 @@ namespace dados
         public float Saldodaconta { get => saldodaconta; set => saldodaconta = value; }
         public string Tiporendamensal { get => tiporendamensal; set => tiporendamensal = value; }
         public float Valortotalinvestimentos { get => valortotalinvestimentos; set => valortotalinvestimentos = value; }
+        public string Tipocartao { get => tipocartao; set => tipocartao = value; }
+        public string Tipoplano { get => tipoplano; set => tipoplano = value; }
+        public string Tipoconta { get => tipoconta; set => tipoconta = value; }
+        public string Numerocartao { get => numerocartao; set => numerocartao = value; }
+        public string Validade { get => validade; set => validade = value; }
+        public string Cvv { get => cvv; set => cvv = value; }
     }
 }

@@ -1,26 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\bravo\\Desktop\\fazendo bankalt\\",
+  "WorkspaceRootPath": "C:\\Users\\bravo\\Desktop\\finalizando bankalt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30DD00B1-2601-4BA8-B1D4-0F73D4A489D1}|WindowsFormsApp1\\view.csproj|c:\\users\\bravo\\desktop\\fazendo bankalt\\windowsformsapp1\\forminformacoespessoais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30DD00B1-2601-4BA8-B1D4-0F73D4A489D1}|WindowsFormsApp1\\view.csproj|solutionrelative:windowsformsapp1\\forminformacoespessoais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30DD00B1-2601-4BA8-B1D4-0F73D4A489D1}|WindowsFormsApp1\\view.csproj|c:\\users\\bravo\\desktop\\finalizando bankalt\\windowsformsapp1\\forminformacoessuporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{30DD00B1-2601-4BA8-B1D4-0F73D4A489D1}|WindowsFormsApp1\\view.csproj|solutionrelative:windowsformsapp1\\forminformacoessuporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30DD00B1-2601-4BA8-B1D4-0F73D4A489D1}|WindowsFormsApp1\\view.csproj|C:\\Users\\bravo\\Desktop\\fazendo bankalt\\windowsformsapp1\\forminformacoespessoais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{30DD00B1-2601-4BA8-B1D4-0F73D4A489D1}|WindowsFormsApp1\\view.csproj|solutionrelative:windowsformsapp1\\forminformacoespessoais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{30DD00B1-2601-4BA8-B1D4-0F73D4A489D1}|WindowsFormsApp1\\view.csproj|c:\\users\\bravo\\desktop\\finalizando bankalt\\windowsformsapp1\\formcartao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{30DD00B1-2601-4BA8-B1D4-0F73D4A489D1}|WindowsFormsApp1\\view.csproj|solutionrelative:windowsformsapp1\\formcartao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30DD00B1-2601-4BA8-B1D4-0F73D4A489D1}|WindowsFormsApp1\\view.csproj|C:\\Users\\bravo\\Desktop\\fazendo bankalt\\windowsformsapp1\\formdadosextrato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30DD00B1-2601-4BA8-B1D4-0F73D4A489D1}|WindowsFormsApp1\\view.csproj|solutionrelative:windowsformsapp1\\formdadosextrato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30DD00B1-2601-4BA8-B1D4-0F73D4A489D1}|WindowsFormsApp1\\view.csproj|C:\\Users\\bravo\\Desktop\\fazendo bankalt\\windowsformsapp1\\formdadosextrato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{30DD00B1-2601-4BA8-B1D4-0F73D4A489D1}|WindowsFormsApp1\\view.csproj|solutionrelative:windowsformsapp1\\formdadosextrato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30DD00B1-2601-4BA8-B1D4-0F73D4A489D1}|WindowsFormsApp1\\view.csproj|C:\\Users\\bravo\\Desktop\\fazendo bankalt\\windowsformsapp1\\formsistemadesenvolvedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{30DD00B1-2601-4BA8-B1D4-0F73D4A489D1}|WindowsFormsApp1\\view.csproj|solutionrelative:windowsformsapp1\\formsistemadesenvolvedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{30DD00B1-2601-4BA8-B1D4-0F73D4A489D1}|WindowsFormsApp1\\view.csproj|c:\\users\\bravo\\desktop\\finalizando bankalt\\windowsformsapp1\\formcartao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30DD00B1-2601-4BA8-B1D4-0F73D4A489D1}|WindowsFormsApp1\\view.csproj|solutionrelative:windowsformsapp1\\formcartao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,60 +27,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormInformacoespessoais.cs",
-              "DocumentMoniker": "C:\\Users\\bravo\\Desktop\\fazendo bankalt\\WindowsFormsApp1\\FormInformacoespessoais.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\FormInformacoespessoais.cs",
-              "ToolTip": "C:\\Users\\bravo\\Desktop\\fazendo bankalt\\WindowsFormsApp1\\FormInformacoespessoais.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\FormInformacoespessoais.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAawDsAAAANAAAAAAAAAA==",
+              "Title": "FormInformacoesSuporte.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bravo\\Desktop\\finalizando bankalt\\WindowsFormsApp1\\FormInformacoesSuporte.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\FormInformacoesSuporte.cs",
+              "ToolTip": "C:\\Users\\bravo\\Desktop\\finalizando bankalt\\WindowsFormsApp1\\FormInformacoesSuporte.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\FormInformacoesSuporte.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T18:32:13.371Z",
+              "WhenOpened": "2024-11-01T20:15:40.701Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormCartao.cs",
+              "DocumentMoniker": "C:\\Users\\bravo\\Desktop\\finalizando bankalt\\WindowsFormsApp1\\FormCartao.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\FormCartao.cs",
+              "ToolTip": "C:\\Users\\bravo\\Desktop\\finalizando bankalt\\WindowsFormsApp1\\FormCartao.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\FormCartao.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAIAywCcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T19:20:04.128Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FormInformacoespessoais.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\bravo\\Desktop\\fazendo bankalt\\WindowsFormsApp1\\FormInformacoespessoais.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\FormInformacoespessoais.cs",
-              "ToolTip": "C:\\Users\\bravo\\Desktop\\fazendo bankalt\\WindowsFormsApp1\\FormInformacoespessoais.cs [Design]",
-              "RelativeToolTip": "WindowsFormsApp1\\FormInformacoespessoais.cs [Design]",
+              "Title": "FormCartao.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bravo\\Desktop\\finalizando bankalt\\WindowsFormsApp1\\FormCartao.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\FormCartao.cs",
+              "ToolTip": "C:\\Users\\bravo\\Desktop\\finalizando bankalt\\WindowsFormsApp1\\FormCartao.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\FormCartao.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T18:32:11.634Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormDadosExtrato.cs",
-              "DocumentMoniker": "C:\\Users\\bravo\\Desktop\\fazendo bankalt\\WindowsFormsApp1\\FormDadosExtrato.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\FormDadosExtrato.cs",
-              "ToolTip": "C:\\Users\\bravo\\Desktop\\fazendo bankalt\\WindowsFormsApp1\\FormDadosExtrato.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\FormDadosExtrato.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAlwCMAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T18:29:39.722Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormDadosExtrato.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\bravo\\Desktop\\fazendo bankalt\\WindowsFormsApp1\\FormDadosExtrato.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\FormDadosExtrato.cs",
-              "ToolTip": "C:\\Users\\bravo\\Desktop\\fazendo bankalt\\WindowsFormsApp1\\FormDadosExtrato.cs [Design]",
-              "RelativeToolTip": "WindowsFormsApp1\\FormDadosExtrato.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T18:13:43.903Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormSistemaDesenvolvedor.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\bravo\\Desktop\\fazendo bankalt\\WindowsFormsApp1\\FormSistemaDesenvolvedor.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\FormSistemaDesenvolvedor.cs",
-              "ToolTip": "C:\\Users\\bravo\\Desktop\\fazendo bankalt\\WindowsFormsApp1\\FormSistemaDesenvolvedor.cs [Design]",
-              "RelativeToolTip": "WindowsFormsApp1\\FormSistemaDesenvolvedor.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T18:00:26.048Z"
+              "WhenOpened": "2024-11-01T19:11:47.695Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

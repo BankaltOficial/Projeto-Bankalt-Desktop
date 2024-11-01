@@ -143,6 +143,12 @@
     <Compile Include="FormCadastro4.Designer.cs">
       <DependentUpon>FormCadastro4.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormCartao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCartao.Designer.cs">
+      <DependentUpon>FormCartao.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormDadosExtrato.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -154,6 +160,12 @@
     </Compile>
     <Compile Include="FormInformacoespessoais.Designer.cs">
       <DependentUpon>FormInformacoespessoais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormInformacoesSuporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInformacoesSuporte.Designer.cs">
+      <DependentUpon>FormInformacoesSuporte.cs</DependentUpon>
     </Compile>
     <Compile Include="FormSelecao.cs">
       <SubType>Form</SubType>
@@ -193,11 +205,17 @@
     <EmbeddedResource Include="FormCadastro4.resx">
       <DependentUpon>FormCadastro4.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormCartao.resx">
+      <DependentUpon>FormCartao.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormDadosExtrato.resx">
       <DependentUpon>FormDadosExtrato.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormInformacoespessoais.resx">
       <DependentUpon>FormInformacoespessoais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInformacoesSuporte.resx">
+      <DependentUpon>FormInformacoesSuporte.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSelecao.resx">
       <DependentUpon>FormSelecao.cs</DependentUpon>

@@ -124,5 +124,43 @@ namespace dados
             }
         }
 
+        public ClienteMF VoltaDadosPessoaisCartaoMaiorDeIdade(string nome)
+        {
+            ClienteMF cliente = new ClienteMF();
+            try
+            {
+                string query = "SELECT * FROM clienteDadosCartaoMaior WHERE NomeCliente = @nome";
+
+                using (MySqlConnection connection = new MySqlConnection(connectionstr))
+                using (MySqlCommand select = new MySqlCommand(query, connection))
+                {
+                    // Adiciona o parâmetro @Cpf
+                    select.Parameters.AddWithValue("@nome", nome);
+
+                    connection.Open();
+                    using (MySqlDataReader reader = select.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            cliente.Nome = reader["NomeCliente"].ToString();
+                            cliente.Tipocartao = reader["TipoCartao"].ToString();
+                            cliente.Tipoconta = reader["TipoConta"].ToString();
+                            cliente.Tipoplano = reader["TipoPlano"].ToString();
+                            cliente.Validade = reader["Validade"].ToString();
+                            cliente.Cvv = reader["Cvv"].ToString();
+                            cliente.Numerocartao = reader["NumCartao"].ToString();
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Erro: " + ex.Message);
+            }
+
+            return cliente;
+        }
+
+
     }
 }

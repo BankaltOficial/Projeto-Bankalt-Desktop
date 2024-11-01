@@ -37,26 +37,26 @@ namespace WindowsFormsApp1
             try
             {
                 cliente = clienteMFRepository.VoltaDadosPessoaisClienteMaiorDeIdade(textBox19.Text);
-                textBox1.Text = cliente.Nome.ToString();
-                textBox2.Text = cliente.Sexo1.ToString();
-                maskedTextBox1.Text = cliente.Datanascimento.ToString();
-                textBox3.Text = cliente.Cidade.ToString();
-                textBox7.Text = cliente.Estado.ToString();
-                textBox4.Text = cliente.Rg.ToString();
-                textBox5.Text = cliente.Cpf.ToString();
-                textBox6.Text = cliente.Estadocivil.ToString();
-                textBox8.Text = cliente.Cep.ToString();
-                textBox9.Text = cliente.Rua.ToString();
-                textBox10.Text = cliente.Bairro.ToString();
-                textBox11.Text = cliente.Numero.ToString();
-                textBox12.Text = cliente.Complemento.ToString();
-                textBox13.Text = cliente.Telefone.ToString();
-                textBox14.Text = cliente.Celular.ToString();
-                textBox15.Text = cliente.Email.ToString();
+                textBox1.Text = cliente.Nome ?? string.Empty;
+                textBox2.Text = cliente.Sexo1 ?? string.Empty;
+                maskedTextBox1.Text = cliente.Datanascimento.ToString("dd/MM/yyyy") ?? "00000000";
+                textBox3.Text = cliente.Cidade ?? string.Empty;
+                textBox7.Text = cliente.Estado ?? string.Empty;
+                textBox4.Text = cliente.Rg ?? string.Empty;
+                textBox5.Text = cliente.Cpf ?? string.Empty;
+                textBox6.Text = cliente.Estadocivil ?? string.Empty;
+                textBox8.Text = cliente.Cep ?? string.Empty;
+                textBox9.Text = cliente.Rua ?? string.Empty;
+                textBox10.Text = cliente.Bairro ?? string.Empty;
+                textBox11.Text = cliente.Numero ?? string.Empty;
+                textBox12.Text = cliente.Complemento ?? string.Empty;
+                textBox13.Text = cliente.Telefone ?? string.Empty;
+                textBox14.Text = cliente.Celular ?? string.Empty;
+                textBox15.Text = cliente.Email ?? string.Empty;
             }
             catch (Exception ex)
             {
-
+                MessageBox.Show("Nenhum cliente encontrado!");
             }
             
         }

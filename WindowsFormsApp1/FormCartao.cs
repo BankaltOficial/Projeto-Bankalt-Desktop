@@ -51,5 +51,12 @@ namespace WindowsFormsApp1
             formextratato.Show();
             this.Close();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FormEstudos formEstudos = new FormEstudos();
+            formEstudos.Show();
+            this.Close();
+        }
     }
 }

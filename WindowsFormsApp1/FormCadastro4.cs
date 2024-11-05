@@ -68,11 +68,12 @@ namespace WindowsFormsApp1
             {
                 FuncionarioRepository fr = new FuncionarioRepository();
                 fr.InsertFuncionario(frt2);
+                MessageBox.Show("Aviso do Sistema!", "Cadastrado com sucesso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
              }
              catch (Exception ex)
              {
-                MessageBox.Show(ex.ToString());
-             } 
+                MessageBox.Show("Aviso do Sistema!", "Erro ao cadastrar" + " " + ex.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            } 
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -125,6 +126,36 @@ namespace WindowsFormsApp1
         }
 
         private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void maskedTextBox2_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
         {
 
         }

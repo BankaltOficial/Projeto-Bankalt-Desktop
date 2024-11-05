@@ -162,5 +162,44 @@ namespace dados
         }
 
 
+
+        public (string nome1, string cpf1) SelectClientesistemadesenvolvedor(string nome, string cpf)
+        {
+            string nome1 = null;
+            string cpf1 = null;
+
+            try
+            {
+                using (MySqlConnection connection = new MySqlConnection(connectionstr))
+                {
+                    string query = "SELECT Nome, Cpf FROM clienteDadosPessoaFisica WHERE Nome = @nome AND Cpf = @cpf";
+                    var select = new MySqlCommand(query, connection);
+
+                    
+                    select.Parameters.AddWithValue("@nome", nome);
+                    select.Parameters.AddWithValue("@cpf", cpf);
+
+                    connection.Open();
+
+                    using (MySqlDataReader reader = select.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            nome1 = reader["Nome"].ToString();
+                            cpf1 = reader["Cpf"].ToString();
+                        }
+                    }
+                }
+                return (nome1, cpf1);
+            }
+            catch (Exception ex)
+            {
+                
+                Console.WriteLine("Erro: " + ex.Message);
+                return (nome1, cpf1); 
+            }
+        }
+
+
     }
 }
